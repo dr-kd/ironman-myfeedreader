@@ -1,0 +1,5 @@
+<ul>
+    [% FOREACH feed IN feeds %]
+    <li><a href="/feed/view/[% feed.id %]">[% feed.url %]</a></li>
+    [% END %]
+</ul>
